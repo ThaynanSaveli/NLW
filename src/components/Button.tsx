@@ -4,6 +4,6 @@ type ButtonProps = {
 
 export function Button(props: ButtonProps) {
   return (
-    <button>{props.text || 'Clique Aqui'}</button>
+    <button>{props.text || 'Clique Aquii'}</button>
   )
 }
