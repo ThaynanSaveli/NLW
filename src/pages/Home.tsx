@@ -74,7 +74,7 @@ export function Home() {
             </div>
           </form>
         </div>
-        <div className="col">
+        <div className="col"> 
         </div>
       </div>
     </div>
