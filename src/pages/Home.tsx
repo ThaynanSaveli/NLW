@@ -25,7 +25,7 @@ export function Home() {
           <form>
             <input
               type="text"
-              placeholder="Digite o código da sala"
+              placeholder="Digite o código da sala de bate papo"
             />
             <Button type="submit">Entrar na sala</Button>
           </form>
