@@ -1,27 +1,15 @@
-import illustrationImg from '../assets/images/illustration.svg';
-import logoImg from '../assets/images/logo.svg';
-import googleIconImg from '../assets/images/google-icon.svg';
-
 import { Button } from '../components/Button';
 
 import '../styles/auth.scss'
+import '../styles/global.scss'
 
 export function Home() {
   return (
-    <div id="page-auth">
-      <aside>
-        <img src={illustrationImg} alt="" />
-        <strong>Crie salas</strong>
-        <p>Tire as dúvidas de sua audiência em tempo real</p>
-      </aside>
-      <main>
-        <div className="main-content">
-          <img src={logoImg} alt="" />
-          <button className="create-room">
-            <img src={googleIconImg} alt="" />
-            Crie sua sala com o Google
-          </button>
-          <div className="separator">ou entre em uma sala</div>
+    <div className="container">
+      <div className="row">
+        <div className="col">
+        </div>
+        <div className="col-6 mt-5">
           <form>
             <input
               type="text"
@@ -30,7 +18,9 @@ export function Home() {
             <Button type="submit">Entrar na sala</Button>
           </form>
         </div>
-      </main>
+        <div className="col"> 
+        </div>
+      </div>
     </div>
   )
 }
